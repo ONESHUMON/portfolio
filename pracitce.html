@@ -6,20 +6,36 @@
     <title>Document</title>
 </head>
 <style>
-h1 {
+/* h1 {
     font-size: 100px;
     border: 5px solid rgb(21, 110, 151);
-    /* border-radius: 25px; */
-    /* border-top-left-radius: 20px; 
-    border-bottom-right-radius: 20px;  */
+     border-radius: 25px;
+ border-top-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+} */
+
+#flexbox {
+display: flex;
+gap: 10px;
+background-color: skyblue;
+height: 200px;
+align-items: center;
+}
+
+.container {
+
 }
 </style>
 <body>
-    <h1>hello</h1>
+    <!-- <h1>hello</h1>
     <h2>hello</h2>
     <h3>hello</h3>
     <h4>hello</h4>
     <h5>hello</h5>
-    <h6>hello</h6>
+    <h6>hello</h6> -->
+    <div id="flexbox">
+        <div class="container">hello</div>
+        <div class="container">hi</div>
+    </div>
 </body>
 </html>
