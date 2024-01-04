@@ -175,8 +175,15 @@ section .main .button:hover i {
   background: linear-gradient(to right, #ff44ae, #890089);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} 
+}
 
 .products .box {
-  
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px 0;
+}
+.products .box .card .image img {
+  width: 150px;
 }
