@@ -1,45 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
-/* h1 {
-    font-size: 100px;
-    border: 5px solid rgb(21, 110, 151);
-     border-radius: 25px;
- border-top-left-radius: 20px; 
-    border-bottom-right-radius: 20px; 
-} */
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-/* #flexbox {
-display: flex;
-gap: 10px;
-background-color: skyblue;
-height: 200px;
-align-items: center;
-justify-content: center;
-}
+  <body>
+    <section>
+      <nav>
+        <div class="logo">
+          <h1>Shoe<span>s</span></h1>
+        </div>
 
-.container {
-border: 2px solid black;
-} */
-</style>
-<body>
-    <!-- <h1>hello</h1>
-    <h2>hello</h2>
-    <h3>hello</h3>
-    <h4>hello</h4>
-    <h5>hello</h5>
-    -
-    <h6>hello</h6> -->
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Products">Products</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Review">Review</a></li>
+          <li><a href="#Services">Services</a></li>
+        </ul>
 
-<!-- <div id="flexbox">
-        <div class="container">hello</div>
-        <div class="container">hi</div>
-    </div> -->
-    <!-- div.item.item1*3    -->
-</body>
+        <div class="icons">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </nav>
+      <div class="main" id="Home">
+        <div class="main_content">
+          <div class="main_text">
+            <h1>NIKE <br /><span>Collection</span></h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              corrupti incidunt minima, sunt ullam repellendus laborum harum
+              perferendis nesciunt odio dignissimos asperiores! Iure accusantium
+              sunt at tempora alias quisquam ratione unde. Commodi autem
+              voluptas repudiandae magni, assumenda, consequuntur nostrum
+              voluptatem debitis aspernatur cumque doloribus, dolor sed porro
+              delectus reiciendis maiores.
+            </p>
+          </div>
+          <div class="main_image">
+            <img src="image\shoes.png" />
+          </div>
+        </div>
+        <div class="social_icon">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="button">
+          <a href="">SHOP NOW</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- #Products -->
+
+    <div class="products" id="Products">
+      <h1>Products</h1>
+      <div class="box">
+        <div class="card">
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-share"></i>
+          </div>
+          <div class="image">
+            <img src="image/shoes1.png" />
+          </div>
+          <div class="product_text">
+            <h1>NIKE</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              aliquam nobis accusantium, laboriosam quod, tenetur blanditiis
+              similique recusandae eum neque voluptates magnam rerum illo quis.
+            </p>
+            <h3>$99.99</h3>
+            <div class="product_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
