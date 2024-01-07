@@ -172,7 +172,7 @@ section .main .button:hover i {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  background: linear-gradient(to right, #ff44ae, #890089);
+  background: linear-gradient(to right, #c72092, #6c14d0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -206,7 +206,7 @@ section .main .button:hover i {
 }
 
 .products .box .card:hover .small_card {
-  transform: translateX(10px);
+  transform: translateX(15px);
   cursor: pointer;
   opacity: 1;
 }
@@ -228,13 +228,13 @@ section .main .button:hover i {
 }
 
 .products .box .card .small_card i {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 30px;
   margin: -10px 0px 20px -21px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 40px;
-  border: 2px solid #b4b4b4;
+  /* border: 2px solid #ff44ae; */
   transition: 0.2s;
 }
 
