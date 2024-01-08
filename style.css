@@ -439,12 +439,54 @@ cursor: pointer;
 transition: 0.3s;
 }
 
-.review .profile:hover .profile_image {
- transform: scale(1.2);
+.review .profile .profile_image:hover {
+ transform: scale(1.2);;
 }
 
 .review .profile_image img {
   width: 60px;
   height: 70px;
+  object-fit: cover;
+  object-position: center;
 }
 
+.review .profile {
+  display: flex;
+  align-items: center;
+}
+
+.review .review_box .review_card {
+  width: 500px;
+  background: white;
+  padding: 20px 25px;
+  border-radius: 5px;
+  margin: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.review .review_box .review_card .card_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review .review_box .review_card .card_top .profile .name {
+  margin-left: 20px;
+  line-height: 22px;
+}
+
+.review .review_box .review_card .card_top .profile .name strong {
+font-size: 20px;
+}
+
+.review .review_box .review_card .card_top .profile .name .like i {
+color: orange;
+display: inline-block;
+font-size: 15px;
+}
+
+.review .review_box .review_card .comment p {
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 15px;
+}
